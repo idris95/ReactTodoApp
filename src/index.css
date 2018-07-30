@@ -63,6 +63,7 @@ ol.todo-list li.todo-list__item span:focus {
 }
 
 ol.todo-list li.todo-list__item button {
+  outline: 0;
   width: 30px;
   height: 31px;
   cursor: pointer;
@@ -70,7 +71,7 @@ ol.todo-list li.todo-list__item button {
   position: absolute;
   top: -6px;
   left: -21px;
-  border-radius: 20px;
+  border-radius: 2px;
   border: 1px solid #212121;
   background-color: #333333;
   color: #dfdfdf;
