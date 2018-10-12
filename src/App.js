@@ -1,12 +1,11 @@
-import React, { Component } from 'react';
-import TodoApp from './components/TodoApp';
-
+import React, { Component, Fragment } from 'react';
+import Note from './containers/Note';
 class App extends Component {
   render() {
     return (
-      <div className="container">
-        <TodoApp />
-      </div>
+      <Fragment>
+        <Note />
+      </Fragment>
     );
   }
 }
