@@ -1,2 +1,2 @@
-# ReactTodoApp
-A simple react todo app
+# ReactTodo / Note App
+A simple react todo / note app
